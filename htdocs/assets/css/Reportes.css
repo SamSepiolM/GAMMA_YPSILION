@@ -1,0 +1,133 @@
+body {
+    background: #f1f1f1;
+}
+
+.row{
+    justify-content:center; 
+    align-content:center;
+}
+
+.barra {
+    background-image: url("../Imagenes/milky-way-starry-sky-night-sky-star-956981.jpeg");
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.barra img
+{
+    padding-right: 10px;
+    padding-left: 70px;
+    width:280px;
+    height:200px;
+}
+
+
+
+
+.container{
+  font-family: sans-serif;
+  border: solid 1px;
+  border-color: #f4f4f4;
+  padding-bottom: 30px;
+  justify-content: center;
+    align-items: center;
+   text-align: center;
+}
+.filtro{
+    border-radius: 30px;
+    padding:20px 20px 20px 20px;
+    background-color: #f4f4f4;
+    padding-bottom: 20px;
+}
+.filtro label{
+    font-size: 14px;
+  font-weight: bold;
+}
+.filtro select{
+  padding-left:10px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.filtro input{
+  padding-left:10px;
+  height: 30px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+}
+.filtro button{
+  height: 30px;
+  width: 80px;
+  color: #0277BD;
+  border-radius: 30px;
+  border-color:  #0277BD;
+  background-color: #ffffff;
+}
+.filtro button:hover{
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  border-radius: 30px;
+  border-color:  #0277BD;
+  background-color: #0277BD;
+}
+table{
+  width: 100%;
+  font-size: 14px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+thead{
+  color: #fff;
+  background: #0277BD;
+}
+th{
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  border-bottom: solid 1px;
+  border-color:#0277BD; 
+}
+tbody tr{
+  cursor: pointer;
+}
+tbody tr:hover{
+  background-color: #E1F5FE;
+  color: #0277BD;
+}
+
+
+
+
+
+
+footer{
+    height: auto;
+    width: auto;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: aliceblue;
+}
+
+.footer-bottom{
+    padding-left: 15px;
+    background-image: url("../Imagenes/starry-sky-stars-universe-violet-wallpaper-preview.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}

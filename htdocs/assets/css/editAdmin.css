@@ -1,0 +1,271 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-image: url(../Imagenes/starry-sky-stars-universe-violet-wallpaper-preview.jpg);
+    background-color: #000000;
+  }
+  .main-container{
+    padding: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 735px;
+    position: relative;
+    padding: 40px 40px 40px 120px;
+    align-content: center;
+    color: #46A2FD;
+    background-color: white;
+    border-radius: 20px;
+    border: 30px;
+  }
+
+
+  .line-area{
+
+    outline-color: #5256ad;
+    border-radius: 45px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #515151;
+    width: 500px;
+    height: 30px; 
+  
+  }
+  
+  .line-area::placeholder{
+      color: #CDCDCD;
+      padding-bottom: 10px;
+  }
+
+  
+  .title-area h2{
+        padding-top: 15px;
+      font-size: 30px;
+        font-weight: 500;
+      color: #5256ad;
+  }
+  .title-area h4{
+        padding-top: 2px;
+      padding-bottom: 1px;
+      font-size: 25px;
+        font-weight: bold;
+      color: #5256ad;
+  }
+
+  .fecha{
+    padding-left: 500px;
+  }
+  
+  .button-update-user {
+    position: relative;
+    border-color: #ff0000;
+    background: #FFFFFF;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000001;
+    transition: color 0.2s linear;
+    width: 180px;
+  cursor: pointer;
+  }
+  .user-icon{
+  color: #ff0000;
+  }
+  .button-update-user:hover{
+    position: relative;
+    border-color: #ffffff;
+    background: #ffebee;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    transition: color 0.2s linear;
+    width: 180px;
+  }
+  
+  .button-upload-usuario {
+    position: relative;
+    border-color: #70ff8b;
+    background: #FFFFFF;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000001;
+    transition: color 0.2s linear;
+    width: 180px;
+  cursor: pointer;
+  }
+  .admin-icon{
+  color: #70ff8b;
+  }
+  .button-upload-usuario:hover{
+    position: relative;
+    border-color: #ffffff;
+    background: #f1f8e9;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    transition: color 0.2s linear;
+    width: 180px;
+  }
+
+  label{
+    padding-top: 5px;
+    max-width: 200px;
+    color: #5256ad;
+    font-weight: bold;
+  }
+  h2{
+    color: #5256ad;
+    font-weight: bold;
+  }
+
+  .button-cancel{
+  padding-left: 10px;
+  position: relative;
+  border-color: #7f052a;
+  background: #ffffff;
+  padding: 15px 20px 15px 24px;
+  border-radius: 40px;
+  line-height: 27px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #7f052a;
+  transition: color 0.2s linear;
+  width: 150px;
+  cursor: pointer;
+  }
+  
+  .button-cancel:hover{
+  position: relative;
+  border-color: #ffffff;
+  background: #ffebee;
+  padding: 15px 20px 15px 24px;
+  border-radius: 40px;
+  line-height: 27px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  transition: color 0.2s linear;
+  width: 150px;
+  }
+  
+  .button-container{
+  padding-top: 20px;
+  padding-left: 145px;
+  }
+  .button-cancel-container{
+  padding-top: 10px;
+  padding-left: 160px;
+  padding-bottom: 20px;
+  }
+  .button-delete-profile {
+    position: relative;
+    border-color: #7f052a;
+    background: #FFFFFF;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000001;
+    transition: color 0.2s linear;
+    width: 150px;
+  cursor: pointer;
+}
+
+.delete-icon{
+  color: #7f052a;
+}
+
+.button-delete-profile:hover{
+    position: relative;
+    border-color: #ffffff;
+    background: #ffebee;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    transition: color 0.2s linear;
+    width: 150px;
+}
+
+  
+  .grade{
+    background: #f4f4f4;
+    border: 2px #5256ad solid;
+    font: 15px Arial;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5em;
+    color: #3E5F8A;
+    font-weight: bold;
+    height: 3em;
+    top: 3em;
+    width: 500px;
+  }
+  
+
+
+
+.searcc-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.searcc-bar input {
+    border-radius: 50px;
+    background: #DEDEDE;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #3c3c3c;
+    padding-bottom: 15px;
+}
+::placeholder {
+    color: #3c3c3c;
+}
+.searcc-bar button img {
+    width: 25px;
+}
+.searcc-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #3b8eed;
+    cursor: pointer;
+}
+.searcc-bar button:hover {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #92c5fc;
+    cursor: pointer;
+}
+

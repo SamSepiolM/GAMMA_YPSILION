@@ -1,0 +1,587 @@
+body {
+    background: #f1f1f1;
+}
+
+.row{
+    justify-content:center; 
+    align-content:center;
+}
+
+.barra {
+    background-image: url("../Imagenes/milky-way-starry-sky-night-sky-star-956981.jpeg");
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+
+.barra img
+{
+    padding-right: 10px;
+    padding-left: 70px;
+    width:280px;
+    height:200px;
+}
+
+.vote-list{
+
+    vertical-align: baseline;
+}
+
+h3{
+    font-size: 50px;
+    color: #01579b;
+    padding-top:50px;
+    padding-bottom:30px;
+}
+
+
+.section.top {
+    z-index: 1;
+}
+.section.top {
+    margin-bottom: var(--space);
+}
+.section {
+    padding-top: var(--space);
+    padding-bottom: var(--space);
+    position: relative;
+}
+.section {
+    z-index: 2;
+}
+.cursos-single {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: var(--space);
+    -ms-grid-columns: 7rem 2fr;
+    grid-template-columns: 7rem 2fr;
+    grid-row-gap: 0;
+    -ms-grid-rows: auto auto 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+        "thumb header"
+        "content content"
+        "footer footer";
+}
+.cursos-single .c-header {
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+}
+.cursos-single .c-header {
+    grid-area: header;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+.cursos-single .c-header .c-title {
+    font-size: 1.5rem;
+    color: var(--link);
+    margin-bottom: 0.5rem;
+}
+
+.cursos-single .c-header .c-title {
+    font-size: 1.5rem;
+    color: var(--link);
+    margin-bottom: 0.5rem;
+}
+.cursos-single .c-thumb figure {
+    margin-bottom: 1rem;
+}
+
+.c-thumb figure {
+    position: relative;
+    padding-top: 150%;
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+.c-thumb figure img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: inherit;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+}
+.cursos-single .c-rating {
+    -ms-grid-column-span: 2;
+    grid-area: rating;
+}
+
+
+.c-rating {
+    margin-top: 1rem;
+    max-width: none;
+}
+.c-rating {
+    max-width: 120px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-matcc-parent;
+}
+.c-rating .vote-list .btn {
+    color: var(--primary);
+    font-size: .875rem;
+}
+
+.btn.sm {
+    font-size: .75rem;
+    padding: 0 0.75rem;
+    white-space: nowrap;
+    color: #ffffff;
+
+}
+.btn.blk {
+    width: 100%;
+}
+button, input, textarea, select, .btn, .menu a {
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+*, :before, :after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+
+.comment-bar {
+    width: 100%;
+    max-width: 1200px;
+    background: rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+.comment-bar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.comment-bar input {
+    border-radius: 50px;
+    background: #DEDEDE;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 5px 20px;
+    font-size: 17px;
+    color: #3c3c3c;
+}
+::placeholder {
+    color: #3c3c3c;
+}
+.comment-bar button{
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background: #3b8eed;
+    cursor: pointer;
+    padding: 0rem 1rem;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+.comment-bar button:hover {
+    border: 0;
+    border-radius: 10px;
+    width: 100px;
+    height: 35px;
+    background: #f1f1f1;
+    cursor: pointer;
+    padding: 0rem 1rem;
+    font-weight: bold;
+    color: #3b8eed;
+}
+
+.comment-container{
+    background-color: #ececec;
+    padding: 20px 20px 20px 20px;
+    border-radius: 30px;
+    height: fit-content;
+}
+.nom-user{
+    color: #01579b;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.comentario{
+    padding-left: 10px;
+}
+.btn, button, [type=button], [type=reset], [type=submit] {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 2rem;
+    width: auto;
+    background-color: var(--gray-dark);
+    color: var(--text);
+    min-width: 3rem;
+    border: 0;
+    border-radius: 0.3rem;
+}
+*, :before, :after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 0;
+}
+user agent stylesheet
+i {
+    font-style: italic;
+}
+.cursos-single .c-footer {
+    -ms-grid-column-span: 2;
+    grid-area: footer;
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+}
+.genres {
+    font-size: 0;
+    padding: 0.438rem 0;
+}
+.anm-c, .sub-menu, nav, .btn.lnk.sm:hover, .send-btn:hover {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+[class*=anm-], .sub-menu, nav, .btn.lnk.sm:hover, .send-btn:hover {
+    -webkit-animation-duration: .3s!important;
+    animation-duration: .3s!important;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.genres span {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.btn.sm {
+    font-size: .75rem;
+    padding: 0 0.75rem;
+    white-space: nowrap;
+}
+.genres span, .genres a {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    line-height: 2rem;
+}
+
+.genres span, .genres a {
+    background-color: #063971;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    line-height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+div {
+    display: block;
+}
+.section {
+    z-index: 2;
+}
+
+.section {
+    padding-top: var(--space);
+    padding-bottom: var(--space);
+    position: relative;
+}  
+h3{
+    padding-top: 30px;
+}
+.section .section-header {
+    position: relative;
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.section .section-title {
+    font-size: 1.5rem;
+    color: var(--link);
+    margin-bottom: 0;
+    line-height: 2rem;
+    clear: both;
+    padding: 0.25rem 0;
+    margin-right: 1rem;
+}
+figure, nav ul, [class*=-list], [class*=-nav] {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.cursos {
+    position: relative;
+}
+article.cursos.sm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.cursos.capitulo {
+    overflow: hidden;
+}
+.capitulos-list .cursos.capitulo .c-thumb {
+
+    grid-area: thumb;
+    max-width: 120px;
+    margin-bottom: 0.5rem;
+    position: relative;
+}
+article.cursos.sm .c-thumb {
+    margin-right: 1rem;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 94px;
+    flex: 0 0 94px;
+}
+article.cursos.sm .c-thumb figure {
+    padding-top: 94px;
+}
+.c-thumb figure {
+    position: relative;
+    padding-top: 150%;
+    overflow: hidden;
+    border-radius: 0.25rem;
+}
+.c-thumb figure img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: inherit;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+img, svg {
+    vertical-align: middle;
+    max-width: 100%;
+}
+.capitulos-list .cursos.capitulo .c-header {
+
+    grid-area: header;
+    position: static;
+    padding: 0;
+    background: 0 0;
+}
+article.cursos.sm .c-header {
+    position: static;
+    padding: 0;
+    opacity: 1;
+    display: block;
+    max-height: none;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow: visible;
+    height: auto;
+    line-height: 1.5rem;
+    text-align: left;
+    background: 0 0;
+}
+.capitulos-list .cursos.capitulo time {
+    opacity: .7;
+    color: var(--text);
+    font-size: .75rem;
+}
+.cursos.capitulo .c-header time {
+    font-size: .65rem;
+}
+.capitulos-list .cursos.capitulo .lnk-blk {
+    -ms-grid-row-span: 2;
+    grid-area: play;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: var(--text);
+    background-color: var(--gray);
+    border-radius: 50%;
+    padding-left: 0.2rem;
+}
+a {
+    text-decoration: none;
+    color: var(--link);
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+*, :before, :after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 0;
+}   
+
+comment-simplebox-renderer {
+    --paper-input-container-input-align: baseline;
+    margin-right: 16px;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+img.yt-img-shadow {
+    display: block;
+    margin-left: var(img-margin-left,auto);
+    margin-right: var(img-margin-right,auto);
+    max-height: var(img-max-height,none);
+    max-width: var(img-max-width,100%);
+    border-radius: var(img-border-radius,none);
+}
+img {
+    -webkit-user-drag: none;
+    height: 40px;
+    aspect-ratio: auto 40 / 40;
+    width: 40px;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#simplebox-placeholder.comment-simplebox-renderer {
+    color: var(spec-text-secondary);
+    outline: none;
+    flex-basis: 100%;
+    flex: 1;
+    flex-basis: 1e-9px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+#placeholder-area.comment-simplebox-renderer {
+    cursor: text;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(spec-10-percent-layer);
+    flex: 1;
+    flex-basis: 1e-9px;
+}
+
+.lnk-blk:after,.lnk-blk-a>a:after{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    content:'';
+    z-index:2
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer{
+    height: auto;
+    width: auto;
+    font-family: "Open Sans";
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: aliceblue;
+}
+
+.footer-bottom{
+    padding-left: 15px;
+    background-image: url("../Imagenes/starry-sky-stars-universe-violet-wallpaper-preview.jpg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+}
+
+button{
+    padding-left: 15px;
+}
+
+.button-edit-profile {
+    position: relative;
+    background: #264EF8;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    transition: color 0.2s linear;
+    width: 150px;
+  cursor: pointer;
+}
+
+.curse-icon{
+	color: #FFFFFF;
+}
+
+.button-edit-profile:hover{
+    position: relative;
+    background: #e1f5fe;
+    padding: 15px 20px 15px 24px;
+    border-radius: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #264EF8;
+    transition: color 0.2s linear;
+    width: 150px;
+}

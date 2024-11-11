@@ -1,0 +1,316 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  /*background-color:rgb(27, 27, 47);*/
+  animation: drop 1.0s ease;
+}
+
+.rool {
+  font-family: "Raleway", Arial, sans-serif;
+  color:whitesmoke;  
+}
+
+.head {
+  font-size: 50px;
+  text-align: center;
+  padding:100px;
+  height: 100px;
+  background-image: url(../Imagenes/hood.gif);
+  background-position: center;
+  background-size: auto;
+  /*padding-bottom: 900px;*/
+}
+
+.page {
+  height: 690px;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 60px 0px;
+}
+
+
+
+input {
+  padding: 10px;
+  border: 0;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+  
+.closebtn:hover {
+  color: black;
+}
+
+.button-edit-profile {
+  position: relative;
+  border-color: #0000ff;
+  background: #FFFFFF;
+  padding: 15px 20px 15px 24px;
+  border-radius: 40px;
+  line-height: 27px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000001;
+  transition: color 0.2s linear;
+  width: 150px;
+cursor: pointer;
+}
+
+.profile-icon{
+color: #0000ff;
+}
+
+.button-edit-profile:hover{
+  position: relative;
+  border-color: #ffffff;
+  background: #e1f5fe;
+  padding: 15px 20px 15px 24px;
+  border-radius: 40px;
+  line-height: 27px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  transition: color 0.2s linear;
+  width: 150px;
+}
+
+
+  /*footer*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+footer{
+  height: auto;
+  width: auto;
+  font-family: "Open Sans";
+  padding-top: 30px;
+  padding-bottom: 0px;
+  color: aliceblue;
+}
+
+.footer-bottom{
+  padding-left: 15px;
+  background-image: url("../Imagenes/starry-sky-stars-universe-violet-wallpaper-preview.jpg");
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0;
+}
+
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .5;
+  font-weight: 200;
+}
+
+
+/*======== I M P O R T A N T   P A R T ============ */
+
+
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .head {
+        height: 30%;
+    }
+    .page {
+        height: 40%;
+    }
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .head {
+        height: 30%;
+    }
+.rool {
+  font-size: 60px;
+}
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+
+  @keyframes drop {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+
+
+
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Open Sans", sans-serif;
+}
+
+header{
+	width: 100%;
+	height: 110px;
+	background-color: #0b132b;
+}
+.interior{
+	max-width: 100%;
+	padding: 0 10px;
+	margin: auto;
+}
+.logo{
+	float: left;
+	padding: 5px 20px 0;
+}
+.logo img{
+	height: 105px;
+}
+.logo img:hover{
+	transform: scale(1.1);
+}
+.navegacion{
+	float: right;
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+	z-index: 1000;
+}
+.navegacion ul{
+	list-style: none;
+	padding: 0 10px;
+}
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+}
+.navegacion ul li:hover{
+	transform: scale(1.1);
+}
+.navegacion ul li a{
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 12px 20px;
+	transition: .3s linear;
+}
+.navegacion ul li a:hover{
+	color: #00c9bd;
+	transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+	display: block;
+}
+.navegacion .submenu .hijos{
+	display: none;
+	background: #0b132b;
+	position: absolute;
+	width: 100%;
+}
+.navegacion .submenu .hijos li{
+	display: block;
+	overflow: hidden;
+	border-bottom: none;
+}
+.navegacion .submenu .hijos li a{
+	display: block;
+}
+
+
+.cabecera{
+  text-align: center;
+  height: 300px;
+  padding: 12px;
+  background-image: url("../Imagenes/milky-way-starry-sky-night-sky-star-956981.jpeg")
+}
+.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../Imagenes/276074395_495614388829317_896936601800577445_n.jpg)
+}
+.user-name{
+  font-size: 10px;
+  margin-top: 14px;
+}
+.datosSociales{
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.colorNombre{
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: brown;
+}
+a.hover{
+  color: blue;
+}
+
+.datos{
+  list-style: armenian;
+  text-align: center;
+  padding: 0;
+}
+
+.datos li{
+  display: inline-block;
+  margin: 5px;
+}

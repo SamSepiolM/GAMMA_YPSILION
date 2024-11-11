@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(../Imagenes/milky-way-starry-sky-night-sky-star-956981.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h3{
+    padding-top: 20px;
+    align-content: center;
+}
+h6{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+}
+h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.Conteiner_Categoria{
+    height: fit-content;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    max-width: 600px;
+    position: relative;
+    padding: 10px 40px;
+    align-content: center;
+    color: #46A2FD;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.Conteiner_Categoria label{
+    display: block;
+    width: 80px;
+}
+
+.Conteiner_Categoria form select{
+    width: 80%;
+    border-radius:40px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 13px;
+    outline: none;
+}
+
+
+.Conteiner_Categoria form select option{
+    width: 80%;
+    border-radius:40px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 13px;
+    outline: none;
+}
+
+.Conteiner_Categoria form input{
+    width: 80%;
+    border-radius:40px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 13px;
+    outline: none;
+}
+
+
+.Conteiner_Categoria button{
+    padding-left: 45px;
+    padding: 10px 40px;
+    border-radius:40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.Conteiner_Categoria button:hover{
+    background: #fff;
+    color: #46A2FD;
+}
+.Container button{
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    background: #46A2FD;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.Conteiner_Categoria button.Cancelar{
+    padding: 10px 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    background: #fd4646;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+.Conteiner_Categoria button.Cancelar:hover{
+    background: #fff;
+    color: #fd4646;
+}
+

@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(../Imagenes/starry-sky-stars-universe-violet-wallpaper-preview.jpg);
+}
+.main-container-video{
+  border: 5px #000000;
+  padding: 10px 45px;
+  padding-top:50px;
+  padding-bottom:50px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+.video-area{
+  text-align: center;
+  border: 5px dashed #ddd;
+  height: 200px;
+  width: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.video-insert{
+    padding: 10px 25px;
+      font-size: 20px;
+      border: 0;
+      outline: none;
+    background-color: #5256ad;
+      color: #ffffff;
+      border-radius: 5px;
+      cursor: pointer;
+}
+.title-area h2{
+      padding-top: 15px;
+    font-size: 30px;
+      font-weight: 500;
+    color: #5256ad;
+}
+.title-area h4{
+      padding-top: 2px;
+    padding-bottom: 1px;
+    font-size: 25px;
+      font-weight: bold;
+    color: #5256ad;
+}
+.title-area textarea{
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+    font-size: 15px;
+      font-weight: 500;
+    color: #515151;
+      width: 500px;
+      height: 40px; 
+}
+.title-area textarea::placeholder{
+    color: #CDCDCD;
+}
+
+.description-area h2{
+      padding-top: 15px;
+    font-size: 30px;
+      font-weight: 500;
+    color: #5256ad;
+}
+.description-area h4{
+      padding-top: 2px;
+    padding-bottom: 1px;
+    font-size: 25px;
+      font-weight: bold;
+    color: #5256ad;
+}
+.description-area textarea{
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+    font-size: 15px;
+      font-weight: 500;
+    color: #515151;
+      width: 500px;
+      height: 150px; 
+}
+.description-area textarea::placeholder{
+    color: #CDCDCD;
+}
+
+.button-upload-video {
+  position: relative;
+  border-color: #ff0000;
+  background: #FFFFFF;
+  padding: 15px 20px 15px 24px;
+  border-radius: 40px;
+  line-height: 27px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000001;
+  transition: color 0.2s linear;
+  width: 150px;
+cursor: pointer;
+}
+.video-icon{
+color: #ff0000;
+}
+.button-upload-video:hover{
+  position: relative;
+  border-color: #ffffff;
+  background: #ffebee;
+  padding: 15px 20px 15px 24px;
+  border-radius: 40px;
+  line-height: 27px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  transition: color 0.2s linear;
+  width: 150px;
+}
+
+.button-cancel{
+padding-left: 10px;
+position: relative;
+border-color: #7f052a;
+background: #ffffff;
+padding: 15px 20px 15px 24px;
+border-radius: 40px;
+line-height: 27px;
+font-weight: 600;
+font-size: 14px;
+color: #7f052a;
+transition: color 0.2s linear;
+width: 150px;
+cursor: pointer;
+}
+
+.button-cancel:hover{
+position: relative;
+border-color: #ffffff;
+background: #ffebee;
+padding: 15px 20px 15px 24px;
+border-radius: 40px;
+line-height: 27px;
+font-weight: 600;
+font-size: 14px;
+color: #ffffff;
+transition: color 0.2s linear;
+width: 150px;
+}
+.button-container{
+padding-left: 160px;
+}
+.button-cancel-container{
+padding-top: 10px;
+padding-left: 160px;
+}
+
+.dropdown{
+  min-width: 15em;
+  position: relative;
+  margin: 2em;
+}
+
+select{
+  background: #f4f4f4;
+  border: 2px #f4f4f4 solid;
+  font: 15px Arial;
+  box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
+  padding-left: 15px;
+  border-radius: 5em;
+  color: #3E5F8A;
+  font-weight: bold;
+height: 3em;
+  top: 3em;
+  width: 100%;
+}
+
+

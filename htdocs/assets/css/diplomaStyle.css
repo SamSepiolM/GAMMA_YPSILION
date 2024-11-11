@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  transform: scale(0.295);
+  transform-origin: center;
+
+  display: block;
+	 align-items: center;
+	 justify-content: center;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 3579px;
+	 height: 2551px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: -5px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 3584px;
+	 height: 2551px;
+	 z-index:1;
+} 
+
+ #BG 
+{ 
+	 left: -53px; 
+	 top: -9px; 
+	 position: absolute; 
+	 width: 3597px;
+	 height: 2561px;
+	 z-index:2;
+} 
+
+ #Capa1 
+{ 
+	 left: 154px; 
+	 top: 153px; 
+	 position: absolute; 
+	 width: 462px;
+	 height: 462px;
+	 z-index:3;
+} 
+
+ #lines 
+{ 
+	 left: -28px; 
+	 top: -1014px; 
+	 position: absolute; 
+	 width: 3526px;
+	 height: 5040px;
+	 z-index:4;
+} 
+
+ #Elements2 
+{ 
+	 left: 2288px; 
+	 top: -913px; 
+	 position: absolute; 
+	 width: 2334px;
+	 height: 4217px;
+	 z-index:5;
+} 
+
+ #Elements 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 922px;
+	 height: 2551px;
+	 z-index:6;
+} 
+
+ #Shape24copy2 
+{ 
+	 left: 801px; 
+	 top: 2004px; 
+	 position: absolute; 
+	 width: 503px;
+	 height: 7px;
+	 z-index:7;
+} 
+
+ #NOMBREDIRECTORDIRECT 
+{ 
+	 left: 844px; 
+	 top: 2049px; 
+	 position: absolute; 
+	 width: 419px;
+	 height: 94px;
+	 z-index:8;
+} 
+
+ #Shape24copy2_0 
+{ 
+	 left: 2277px; 
+	 top: 2004px; 
+	 position: absolute; 
+	 width: 503px;
+	 height: 7px;
+	 z-index:9;
+} 
+
+ #NOMBREPROFESORDOCENT 
+{ 
+	 left: 2315px; 
+	 top: 2049px; 
+	 position: absolute; 
+	 width: 429px;
+	 height: 94px;
+	 z-index:10;
+} 
+
+#NOMBREPROFESOR 
+{ 
+	left: 740px; 
+	 top: 1840px; 
+	 position: relative; 
+	 height: 250px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index:18;
+} 
+
+#NOMBREDIRECTOR 
+{ 
+	left: -740px; 
+	 top: 1590px; 
+	 position: relative; 
+	 height: 250px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index:19;
+}
+
+#Shape24copy2_1 
+{ 
+	 left: 1550px; 
+	 top: 2290px; 
+	 position: absolute; 
+	 width: 503px;
+	 height: 7px;
+	 z-index:20;
+} 
+
+ #PORHABERCOMPLETADOSA 
+{ 
+	 left: 917px; 
+	 top: 1498px; 
+	 position: absolute; 
+	 width: 1743px;
+	 height: 47px;
+	 z-index:12;
+} 
+
+ #Nombre 
+{ 
+	 top: 300px; 
+	 position: relative; 
+	 height: 250px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index:13;
+} 
+
+ #OTORGADOA 
+{ 
+	 left: 1595px; 
+	 top: 868px; 
+	 position: absolute; 
+	 width: 384px;
+	 height: 47px;
+	 z-index:14;
+} 
+
+#Curso 
+{ 
+	 top: 1100px; 
+	 position: relative; 
+	 height: 250px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index:11;
+} 
+
+ #CertificadodeReconoc 
+{ 
+	 left: 949px; 
+	 top: 302px; 
+	 position: absolute; 
+	 width: 1681px;
+	 height: 204px;
+	 z-index:15;
+} 
+
+ #deReconocimiento 
+{ 
+	 left: 1089px; 
+	 top: 586px; 
+	 position: absolute; 
+	 width: 1407px;
+	 height: 105px;
+	 z-index:16;
+} 
+
+ #Fecha 
+{ 
+	 left: 1720px;
+	 top: 2332px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 55px;
+	 z-index:17;
+} 
+
+#DATOS_FECHA 
+{ 
+	 top: 1120px; 
+	 position: relative; 
+	 height: 250px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index:21;
+} 
+
+#btnImprimir 
+{ 
+	 top: 1150px; 
+	 left: 1680px;
+	 position: relative; 
+	 height: 120px;
+	 width: 220px;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 z-index:21;
+	 font-size: 40px;
+} 
